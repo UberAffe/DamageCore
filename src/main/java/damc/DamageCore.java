@@ -1,7 +1,7 @@
-package dc;
+package damc;
 
-import dc.helpers.CommonProxy;
-import dc.helpers.Refs;
+import damc.helpers.CommonProxy;
+import damc.helpers.Refs;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;

@@ -1,6 +1,6 @@
-package dc.helpers;
+package damc.helpers;
 
-import dc.DCEvents;
+import damc.DamCEvents;
 import net.minecraftforge.common.MinecraftForge;
 
 public class CommonProxy {
@@ -14,6 +14,6 @@ public class CommonProxy {
 	}
 	
 	public void postInit(){
-		MinecraftForge.EVENT_BUS.register(new DCEvents());
+		MinecraftForge.EVENT_BUS.register(new DamCEvents());
 	}
 }

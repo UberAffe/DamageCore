@@ -1,4 +1,4 @@
-package dc.helpers;
+package damc.helpers;
 
 public class ClientProxy extends CommonProxy{
 
