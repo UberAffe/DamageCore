@@ -5,4 +5,4 @@
  * @author Matt
  *
  */
-package damc.damagetypes;
+package damc.api;
