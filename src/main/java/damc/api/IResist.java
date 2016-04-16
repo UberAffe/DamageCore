@@ -1,4 +1,4 @@
-package damc.caps.resistancetypes;
+package damc.api;
 
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.EnumFacing;

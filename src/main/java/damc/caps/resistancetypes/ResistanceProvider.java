@@ -1,5 +1,6 @@
 package damc.caps.resistancetypes;
 
+import damc.api.IResist;
 import damc.caps.damagetypes.DefaultDamage;
 import damc.caps.damagetypes.IDamage;
 import net.minecraft.entity.player.EntityPlayer;

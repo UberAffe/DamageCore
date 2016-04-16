@@ -5,6 +5,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.EnumFacing;
+import net.minecraftforge.event.entity.living.LivingAttackEvent;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
 
 public class DSPound extends ADamage{
@@ -36,6 +37,12 @@ public class DSPound extends ADamage{
 
 	@Override
 	public void readNBT(EnumFacing side, NBTTagCompound nbt) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void livingAttackEvent(LivingAttackEvent event) {
 		// TODO Auto-generated method stub
 		
 	}
